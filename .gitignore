@@ -2,4 +2,4 @@
 README.md
 
 # Ignore folder named '.idea'
-.idea/**
+**/.idea/
