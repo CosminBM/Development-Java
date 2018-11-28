@@ -4,4 +4,3 @@ README.md
 # Ignore folder named '.idea'
 .*
 !/.gitignore
-!/.git
