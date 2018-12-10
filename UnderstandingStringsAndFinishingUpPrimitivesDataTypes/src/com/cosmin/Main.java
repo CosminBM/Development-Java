@@ -23,5 +23,13 @@ public class Main {
     numberString += "49.95";
     System.out.println("The result is: " + numberString);
 
+    String lastString = "10";
+    int myInt = 50;
+    lastString = lastString + myInt;
+    System.out.println("LastString is equal to: " + lastString);
+    double doubleNumber = 120.47;
+    lastString = lastString + doubleNumber;
+    System.out.println("LastString is equal to: " + lastString);
+
     }
 }
