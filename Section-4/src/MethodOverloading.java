@@ -3,6 +3,7 @@ public class MethodOverloading {
     public static void main(String[] args) {
         int newScore = calculateScore("Roco", 500);
         System.out.println("New score is " + newScore);
+
     }
 
     public static int calculateScore(String playerName, int score){
