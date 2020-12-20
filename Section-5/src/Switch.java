@@ -1,13 +1,13 @@
 public class Switch {
 
     public static void main(String[] args) {
-    intSwitch();
-    charSwitch();
+        intSwitch();
+        charSwitch();
+        stringSwitch();
     }
 
-    public static void intSwitch(){
+    public static void intSwitch() {
         int switchValue = 4;
-
         switch (switchValue) {
             case 1:
                 System.out.println("Value was 1");
@@ -39,6 +39,20 @@ public class Switch {
             default:
                 System.out.println("Not found a value from A, B, C, D, E");
                 break;
+        }
+    }
+
+    public static void stringSwitch() {
+        String month = "Januarfy";
+        switch (month) {
+            case "January":
+                System.out.println("Jan");
+                break;
+            case "June":
+                System.out.println("June");
+                break;
+            default:
+                System.out.println("Not sure");
         }
     }
 }
