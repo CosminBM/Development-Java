@@ -8,10 +8,10 @@ public class Sum3And5Challenge {
                 count++;
                 System.out.println("Number that met the conditions is: " + i);
                 sum += i;
-                if(count == 5){
-                    System.out.println("Sum of the numbers that met the conditions is: " + sum);
-                    break;
-                }
+            }
+            if(count == 5){
+                System.out.println("Sum of the numbers that met the conditions is: " + sum);
+                break;
             }
         }
     }
