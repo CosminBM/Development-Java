@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class SumOdd {
     public static void main(String[] args) {
         System.out.println(sumOdd(24, 25));
